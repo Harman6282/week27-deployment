@@ -22,6 +22,6 @@ jobs:
           context: .
           file: ./docker/Dockerfile.frontend
           build-args: 
-            - DATABASE_URL=${{ secrets.DATABASE_URL }}
+             DATABASE_URL=${{ secrets.DATABASE_URL }}
           push: true
           tags: harmanxze/todo-app-frontend:${{ github.sha }}
