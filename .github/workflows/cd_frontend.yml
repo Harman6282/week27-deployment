@@ -24,4 +24,4 @@ jobs:
           build-args: 
             - DATABASE_URL=${{ secrets.DATABASE_URL }}
           push: true
-          tags: harmanxze/todo-app-backend:${{ github.sha }}
+          tags: harmanxze/todo-app-frontend:${{ github.sha }}
